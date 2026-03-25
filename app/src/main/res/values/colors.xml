@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Legal-Tech Professional Palette -->
+    <color name="primary">#1E3A5F</color> <!-- Dark Blue -->
+    <color name="primary_variant">#162B46</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#2EC4B6</color> <!-- Teal Accent -->
+    <color name="secondary_variant">#24A195</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <color name="background">#F4F7FB</color>
+    <color name="surface">#FFFFFF</color> <!-- Card Background -->
+    <color name="on_surface">#1A1A1A</color> <!-- Text Primary -->
+    <color name="on_surface_variant">#6B7280</color> <!-- Secondary Text -->
+
+    <color name="success">#22C55E</color>
+    <color name="error">#EF4444</color>
+
+    <!-- Legacy Risk & Status Colors (Mapped to new palette where possible) -->
+    <color name="risk_high">#EF4444</color>
+    <color name="risk_medium">#F59E0B</color> <!-- Amber for medium -->
+    <color name="risk_low">#22C55E</color>
+
+    <color name="risk_high_container">#FEE2E2</color>
+    <color name="risk_medium_container">#FEF3C7</color>
+    <color name="risk_low_container">#DCFCE7</color>
+
+    <!-- UI Elements -->
+    <color name="outline_variant">#E5E7EB</color>
+    <color name="surface_variant">#F9FAFB</color>
+
+    <!-- Gradient: Secure Deep Blue -->
+    <color name="grad_start">#1E3A5F</color>
+    <color name="grad_end">#162B46</color>
+</resources>

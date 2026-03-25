@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CyberGuard</string>
+    <string name="source_format">Provided by: %1$s</string>
+    <string name="published_format">Published: %1$s</string>
+    <string name="threat_alert">Threat Alert</string>
+    <string name="read_more">Read More</string>
+</resources>

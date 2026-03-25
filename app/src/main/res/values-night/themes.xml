@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CyberGuard" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Dark theme colors -->
+        <item name="colorPrimary">#90CAF9</item> <!-- Lighter Blue for Dark Mode -->
+        <item name="colorOnPrimary">#1A1A1A</item>
+        <item name="colorPrimaryContainer">#1E3A5F</item>
+        <item name="colorOnPrimaryContainer">#D1E9FF</item>
+
+        <item name="colorSecondary">#2EC4B6</item>
+        <item name="colorOnSecondary">#1A1A1A</item>
+        <item name="colorSecondaryContainer">#004D40</item>
+        <item name="colorOnSecondaryContainer">#CCFBF1</item>
+
+        <item name="android:windowBackground">#0F172A</item> <!-- Very Dark Blue -->
+        <item name="colorSurface">#1E293B</item> <!-- Darker Card Background -->
+        <item name="colorOnSurface">#FFFFFF</item> <!-- Force pure white text in dark mode -->
+        <item name="colorSurfaceVariant">#334155</item>
+        <item name="colorOnSurfaceVariant">#E2E8F0</item> <!-- Much lighter secondary text -->
+
+        <item name="colorError">#EF4444</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorOutline">#334155</item>
+
+        <!-- Custom attributes for professional look -->
+        <item name="android:navigationBarColor">#0F172A</item>
+        <item name="android:statusBarColor">#0F172A</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Force toolbar icons (including 3 dots) to white in dark mode -->
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="actionMenuTextColor">#FFFFFF</item>
+
+        <!-- Shape Appearance -->
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.CyberGuard.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.CyberGuard.LargeComponent</item>
+
+        <!-- Default Button Style -->
+        <item name="materialButtonStyle">@style/Widget.CyberGuard.Button</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.CyberGuard.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.CyberGuard.HeadlineMedium</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.CyberGuard.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.CyberGuard.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.CyberGuard.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.CyberGuard.BodyMedium</item>
+    </style>
+</resources>

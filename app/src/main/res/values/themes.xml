@@ -1,0 +1,102 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CyberGuard" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Light theme colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">#E2E8F0</item>
+        <item name="colorOnPrimaryContainer">@color/primary</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorSecondaryContainer">#CCFBF1</item>
+        <item name="colorOnSecondaryContainer">@color/secondary_variant</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorOutline">@color/outline_variant</item>
+
+        <!-- Custom attributes for professional look -->
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Force toolbar icons to white -->
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+
+        <!-- Shape Appearance -->
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.CyberGuard.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.CyberGuard.LargeComponent</item>
+
+        <!-- Default Button Style -->
+        <item name="materialButtonStyle">@style/Widget.CyberGuard.Button</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.CyberGuard.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.CyberGuard.HeadlineMedium</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.CyberGuard.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.CyberGuard.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.CyberGuard.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.CyberGuard.BodyMedium</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.CyberGuard.LabelLarge</item>
+    </style>
+
+    <style name="ShapeAppearance.CyberGuard.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.CyberGuard.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.CyberGuard.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.CyberGuard.MediumComponent</item>
+    </style>
+
+    <!-- Typography Styles -->
+    <style name="TextAppearance.CyberGuard.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.CyberGuard.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.CyberGuard.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.CyberGuard.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.CyberGuard.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.CyberGuard.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.CyberGuard.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="Theme.CyberGuard" parent="Base.Theme.CyberGuard" />
+</resources>

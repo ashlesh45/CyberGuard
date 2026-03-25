@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_knowledge"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Knowledge" />
+    <item
+        android:id="@+id/navigation_advisories"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Advisories" />
+    <item
+        android:id="@+id/navigation_scam"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Scam Check" />
+    <item
+        android:id="@+id/navigation_community"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Community" />
+    <item
+        android:id="@+id/navigation_triage"
+        android:icon="@android:drawable/ic_menu_report_image"
+        android:title="Triage" />
+</menu>
