@@ -1,56 +1,126 @@
-CyberGuard: Your Digital Safety Shield
-CyberGuard is a comprehensive Android application designed to bolster personal digital security and cybersecurity awareness. The platform provides a suite of tools ranging from real-time threat detection to educational resources, empowering users to navigate the digital landscape safely.
-Project Overview
-CyberGuard serves as a proactive security assistant. By leveraging modern Android development practices and machine learning, the app identifies potential risks in real-time and provides up-to-date information on the evolving cybersecurity threat landscape.
-Core Features
-•
-Intelligent QR Analysis: Utilizes Google ML Kit and CameraX to scan and evaluate URLs within QR codes. The system performs heuristic analysis to identify suspicious links, such as non-HTTPS connections or known URL shortening services frequently used in phishing.
-•
-Security Advisories: A dedicated feed of cybersecurity advisories and alerts, keeping users informed about recent data breaches and emerging digital threats.
-•
-Cybersecurity Knowledge Base: An educational repository featuring detailed information on various security topics to help users understand and mitigate digital risks.
-•
-Knowledge Verification: Integrated quiz modules designed to test and reinforce the user's understanding of cybersecurity best practices.
-•
-Biometric Integration: Implementation of biometric authentication to ensure secure access to the application's sensitive data and features.
+# CyberGuard: Your Digital Safety Shield
 
-Technical Architecture
-The application follows the recommended Android Architecture Components (MVVM) to ensure a scalable, maintainable, and testable codebase.
-•
-Presentation Layer: Built with Fragments and View Binding, utilizing LiveData and ViewModel to manage UI state.
-•
-Domain/Data Layer: Employs a Repository pattern to abstract data sources, managing local persistence via Room and remote data fetching via Retrofit.
-•
-Dependency Injection: Hilt (Dagger) is used for robust dependency management across the application lifecycle.
-Tech Stack
-•
-Platform: Android (Java/Kotlin)
-•
-Machine Learning: Google ML Kit (Barcode Scanning)
-•
-Camera API: CameraX (Core, Camera2, Lifecycle, and View)
-•
-Networking: Retrofit 2 with GSON conversion
-•
-Persistence: Room Database
-•
-Dependency Injection: Hilt (Dagger)
-•
-UI Components: Material Design 3, ConstraintLayout
-•
-Navigation: Jetpack Navigation Component
-•
-Security: Android Biometric Library
-•
-Image Loading: Glide
-•
-Asynchrony: Google Guava (ListenableFuture) for CameraX integration
+## Overview
 
-<img width="385" height="848" alt="Screenshot 2026-03-21 100346" src="https://github.com/user-attachments/assets/8972bc3c-2c8e-4e8c-a1ba-0696299df9df" />
-<img width="385" height="848" alt="Screenshot 2026-03-21 100346" src="https://github.com/user-attachments/assets/95712eb0-2ca4-4435-8a69-4f2603006fec" />
-<img width="385" height="848" alt="Screenshot 2026-03-21 100346" src="https://github.com/user-attachments/assets/a2f77129-cdd6-47e4-a915-302edd1bc166" />
-<img width="385" height="848" alt="Screenshot 2026-03-21 100346" src="https://github.com/user-attachments/assets/d792b459-284f-48fd-8de0-c37a54c1a781" />
-<img width="385" height="848" alt="Screenshot 2026-03-21 100346" src="https://github.com/user-attachments/assets/eed88d00-6f87-42a6-81c9-d19994ff34cf" />
-<img width="385" height="848" alt="Screenshot 2026-03-21 100346" src="https://github.com/user-attachments/assets/d9a1d119-31af-4e93-8b97-c9b15a198b93" />
-<img width="385" height="848" alt="Screenshot 2026-03-21 100346" src="https://github.com/user-attachments/assets/3a87f38b-3352-4a17-97fb-e1e5325f3595" />
+CyberGuard is a comprehensive Android application designed to enhance personal digital security and cybersecurity awareness. The application provides tools for real-time threat detection along with educational resources, enabling users to safely navigate the digital environment.
+
+---
+
+## Project Description
+
+CyberGuard functions as a proactive security assistant. It leverages modern Android development practices and machine learning techniques to identify potential risks and deliver timely cybersecurity insights.
+
+---
+
+## Core Features
+
+### Intelligent QR Analysis
+
+* Uses Google ML Kit and CameraX to scan QR codes
+* Performs heuristic analysis on URLs
+* Detects suspicious links such as:
+
+  * Non-HTTPS URLs
+  * URL shorteners commonly used in phishing
+
+### Security Advisories
+
+* Provides a real-time feed of cybersecurity alerts
+* Keeps users informed about:
+
+  * Data breaches
+  * Emerging threats
+
+### Cybersecurity Knowledge Base
+
+* Offers structured educational content
+* Helps users understand and mitigate digital risks
+
+### Knowledge Verification
+
+* Includes quiz modules
+* Reinforces cybersecurity awareness
+
+### Biometric Authentication
+
+* Secures access using biometric verification
+* Protects sensitive application data
+
+---
+
+## Technical Architecture
+
+The application follows the MVVM (Model-View-ViewModel) architecture for scalability and maintainability.
+
+### Presentation Layer
+
+* Built using Fragments and View Binding
+* Uses LiveData and ViewModel for UI state management
+
+### Data Layer
+
+* Implements Repository pattern
+* Local storage: Room Database
+* Remote data: Retrofit
+
+### Dependency Injection
+
+* Hilt (Dagger) for efficient dependency management
+
+---
+
+## Tech Stack
+
+* Platform: Android (Java/Kotlin)
+* Machine Learning: Google ML Kit
+* Camera: CameraX
+* Networking: Retrofit with GSON
+* Database: Room
+* Dependency Injection: Hilt (Dagger)
+* UI: Material Design 3, ConstraintLayout
+* Navigation: Jetpack Navigation Component
+* Security: Android Biometric Library
+* Image Loading: Glide
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8972bc3c-2c8e-4e8c-a1ba-0696299df9df" width="250"/>
+  <img src="https://github.com/user-attachments/assets/95712eb0-2ca4-4435-8a69-4f2603006fec" width="250"/>
+  <img src="https://github.com/user-attachments/assets/a2f77129-cdd6-47e4-a915-302edd1bc166" width="250"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d792b459-284f-48fd-8de0-c37a54c1a781" width="250"/>
+  <img src="https://github.com/user-attachments/assets/eed88d00-6f87-42a6-81c9-d19994ff34cf" width="250"/>
+  <img src="https://github.com/user-attachments/assets/d9a1d119-31af-4e93-8b97-c9b15a198b93" width="250"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a87f38b-3352-4a17-97fb-e1e5325f3595" width="250"/>
+</p>
+
+---
+
+## Future Enhancements
+
+* Integration of advanced threat detection models
+* Real-time phishing detection improvements
+* Cloud-based alert synchronization
+* Enhanced UI/UX
+
+---
+
+## Conclusion
+
+CyberGuard provides a unified platform for improving digital safety through real-time analysis and user education. The project demonstrates practical implementation of Android architecture, machine learning integration, and security-focused design.
+
+---
+
+## Author
+
+M Ashlesh Mallya
+
 
